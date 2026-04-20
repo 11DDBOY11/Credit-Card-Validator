@@ -1,0 +1,37 @@
+!<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Card Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Enter Card Details</h2>
+
+<label for="name">Name:</label>
+<input type="text" id="name" placeholder="Name">
+<label for="cardNumber">Card Number:</label>
+<input type="text" id="cardNumber" placeholder="Card Number">
+
+<label for="cardType">Card Type:</label>
+<select id="cardType">
+    <option value="">Select Card Type</option>
+    <option value="VISA">VISA</option>
+    <option value="MasterCard">MasterCard</option>
+    <option value="AMEX">AMEX</option>
+    <option value="Rupay">Rupay</option>
+</select>
+<label for="expiry">Expiry Date:</label>    
+<input type="text" id="expiry" placeholder="MM/YY">
+
+<button onclick="submitForm()">Submit</button>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
