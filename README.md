@@ -25,7 +25,7 @@ A simple web application that validates card numbers using the Luhn Algorithm an
 
 ## ⚠️ Note
 
-This project is for educational purposes only. Do not use real card details.
+This project is for educational purposes only. Do not use real card details. 
 
 ## 📷 Output
 
